@@ -1,0 +1,20 @@
+.feedback__form input, button {
+    display: block;
+    margin: 1rem auto;
+    border-radius: 6px;
+    height: 25px;
+}
+
+.feedback__form_message {
+    width: 65%;
+}
+
+.feedback__form button {
+background-color: #16b054;
+  width: 30%;
+  height: 30px;
+  border: none;
+  color: #fafafa;
+  font-size: medium;
+  cursor: pointer;
+}

@@ -1,0 +1,30 @@
+.nav__ul {
+  margin: 0 auto;
+  padding: 10px;
+  text-align: center;
+}
+
+.nav__ul li {
+  display: inline-block;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.nav__ul li:not(:last-child) {
+    margin-right: 25px;
+}
+
+.nav__ul li a {
+  color: #fafafa;
+  text-decoration: none;
+  font-weight: 600;
+  text-shadow: 1px 1px 2px black;
+}
+
+.nav__ul li a:hover {
+  color: #E6DADA;
+}
+
+.li__img img {
+  width: 20px;
+}

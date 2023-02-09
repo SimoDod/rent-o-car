@@ -1,0 +1,25 @@
+.container {
+    background-color: #fafafa7e;
+    width: 100%;
+    min-height: 100px;
+    border-radius: 6px;
+    color: #2c3345;
+    overflow: hidden;
+    margin: 1rem 0;
+    position: relative;
+}
+
+.container h4, p{
+    margin: 0 1rem;
+    padding: 0.5rem 0;
+}
+.container hr {
+    margin: 0;
+}
+
+.span__date {
+    position: absolute;
+    right: 10px;
+    font-size: 14px;
+    font-weight: 400;
+}

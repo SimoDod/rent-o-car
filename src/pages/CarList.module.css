@@ -1,0 +1,25 @@
+.wrapper {
+  display: grid;
+  margin: 0 auto;
+  width: 700px;
+  max-width: 100%;
+  grid-gap: 10px;
+  grid-template-columns: repeat(2, 49.3%);
+  box-sizing: border-box;
+  padding: 10px 5px;
+  border-radius: 6px;
+}
+
+@media screen and (max-width: 600px) {
+  .wrapper {
+    grid-template-columns: repeat(1, 100%);
+  }
+}
+
+.p__no_available {
+  text-align: center;
+  margin-top: 30vh;
+  font-size: larger;
+  color: #fafafa;
+  text-shadow: 1px 1px 2px black;
+}

@@ -1,0 +1,23 @@
+.wrapper {
+  margin: 0 auto;
+  width: 700px;
+  max-width: 97%;
+  background-color: #fafafa4d;
+  box-sizing: border-box;
+  padding: 10px 5px;
+  border-radius: 6px;
+}
+
+.wrapper h3 {
+  text-align: center;
+  color: #fafafa;
+  text-shadow: 1px 1px 2px black;
+}
+
+.p__no_comments {
+  text-align: center;
+  margin-top: 5vh;
+  font-size: larger;
+  color: #fafafa;
+  text-shadow: 1px 1px 2px black;
+}

@@ -1,0 +1,126 @@
+.div__container {
+    background-color: #fafafa4d;
+    margin: 0 auto;
+    width: 700px;
+    max-width: 97%;
+    border-radius: 6px;
+    box-sizing: border-box;
+}
+
+.div__container h2{
+    margin-top: 0;
+    text-align: center;
+    padding-top: 1rem;
+    color: #2C3345;
+    text-shadow: 2px 4px 4px rgba(0,0,0,.1);
+    font-size: 175%;
+}
+
+.div__grid{
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    text-align: center;
+}
+
+.form__main label{
+    display: block;
+    margin-bottom: 2%;
+    font-weight: 600;
+    color: #2C3345;
+}
+
+.form__main input{
+    margin: 0 auto;
+    display: block;
+    width: 75%;
+    height: 1.5rem;
+    border-radius: 6px;
+    margin-bottom: 10%;
+}
+
+.div__veihcle_type {
+    display: inline-block;
+}
+
+.div__veihcle_type div {
+    display: inline-block;
+    margin-left: 15%;
+    width: 100px;
+}
+
+
+.div__veihcle_type input{
+    display: inline-block;
+    width: 20px;
+    margin-right: 2%;
+    cursor: pointer;
+}
+
+.div__veihcle_type label{
+    margin: 0;
+    position: relative;
+    display: inline-block;
+    bottom: 4px;
+    margin-right: 5%;
+    margin-left: 2%;
+    font-size: small;
+    color: #2C3345;
+}
+
+.p__vehicle_type {
+    margin-left: 20%;
+    margin-top: 1.8rem;
+    margin-bottom: 1rem;
+    font-weight: 550;
+    color: #2C3345;
+}
+
+@media screen and (max-width: 600px) {
+    .p__vehicle_type {
+        margin-left: 1.4rem;
+    }
+}
+
+.div__photo, .div__price {
+    display: inline-block;
+    width: 50%;
+    text-align: center;
+    margin-top: 8%;
+}
+
+.span__url {
+    font-size: small;
+}
+
+.div__button {
+    padding-top: 5%;
+    padding-bottom: 7%;
+}
+
+.form__button {
+    background-color: #18BD5B;
+    display: block;
+    margin: 0 auto;
+    width: 35%;
+    height: 45px;
+    border-radius: 6px;
+    border: none;
+    color: #fafafa;
+    font-size: large;
+    cursor: pointer;
+}
+
+input { 
+    text-align: center;
+    font-size: 14px;
+}
+
+.div__brandNModel label{
+    margin-bottom: 1%;
+}
+
+.div__brandNModel, .div__year {
+    display: inline-block;
+    width: 50%;
+    text-align: center;
+}
